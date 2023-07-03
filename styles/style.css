@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -9,7 +11,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	padding: 2rem;
+	padding: 3rem;
 	align-items: center;
 }
 
@@ -25,15 +27,12 @@
 
 }
 
-.items-menu a:link{
+a:link{
 	text-decoration: none;
-	font-weight: bold;
 	color: #5b5247;
 }
 
-.items-menu a:visited{
-	text-transform: uppercase;
-	font-weight: bold;
+a:visited{
 	color: #5b5247;
 }
 
@@ -42,14 +41,13 @@
 	color: #c28b13;
 }
 
-
 .title{
 	text-align: center;
 	margin-bottom: 15px;
 }
 .title h1{
-	font-family: 'Comfortaa', cursive;
-	font-size: 40px;
+	font-family: 'Tsukimi Rounded', sans-serif;
+	font-size: 45px;
 	color: #b6335e;
 }
 .title h4{
