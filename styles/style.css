@@ -1,3 +1,59 @@
-h1{
-	color:pink;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@font-face {
+	font-family: 'Seasons' ;
+	src: url('/fonts/theseasons-reg.otf');
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 2rem;
+	align-items: center;
+}
+
+.items-menu{
+	list-style: none;
+	display: flex;
+	gap: 1.3rem;
+	flex-flow: row wrap;
+	font-family: 'Comfortaa', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #5b5247;
+
+}
+
+.items-menu a:link{
+	text-decoration: none;
+	font-weight: bold;
+	color: #5b5247;
+}
+
+.items-menu a:hover{
+	transition: 0.5s;
+	color: #c28b13;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.title h1{
+	font-family: 'Seasons', cursive;
+	font-size: 40px;
+	color: #b6335e;
+}
+.title h4{
+	letter-spacing: 7px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-family: 'Comfortaa', cursive;
+	color:#c28b13;
+	font-weight: lighter;
+
 }
